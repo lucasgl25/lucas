@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://wallpaperaccess.com/full/4910984.gif);
+    background-size: cover;
+}
+
+@font-face {
+    font-family: gamer;
+    src: url(Gamer.ttf);
+}
+
+h1{
+    text-align: center;
+    background-color: red;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 15px;
+    font-family: gamer;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+    background-color: white;
+    border-radius: 25px;
+    font-size: 30px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    width: 150px;
+  
+}
+
+header ul li a{
+    color: red;
+    text-decoration: none;
+    font-size: 60px;
+    text-shadow: 1px 1px 2px black;
+    font-family: gamer;
+}
+
+header ul li{
+    display:inline-block;
+    margin: 0 40px;
+}
+
+
+#jogo{
+
+    background-color: rgba(255, 255, 255, 0.685);
+    width: 80%;
+    height: 230px;
+    border:  1px solid black;
+    border-radius: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border: solid red;
+
+
+  
+}
+
+
+@keyframes avatar{
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
+
+
+
+}
+
+#avatar{
+    width: 20px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    top: 150px;
+    margin: 10px;
+    border: solid rgb(0, 0, 0);
+   
+}
+
+.animar{
+    animation: avatar 500ms infinite ;
+}
+
+#bloco{
+    width: 20px;
+    height: 19px;
+    background-color: black;
+    border: solid red;
+    position: relative;
+    top: 130px;
+    left: 480px;
+    animation: bloco 1s infinite linear;
+    margin: 5px;
+}
+
+footer{
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    border: solid 8px rgb(255, 255, 255);
+    padding-bottom: 0px;
+    margin-left: 15px;
+}
+
+footer h3{
+    text-align: center;
+
+}
+
+footer img{
+    width: 50px;
+    padding: 5px;
+}
+
+footer p{
+    font-size: 20px;
+}
+
+footer a  :hover{
+    box-shadow: 0 0 15px rgb(0, 0, 0), inset 0 0 15px rgb(0, 0, 0);
+    text-shadow: 0 0 15px rgb(0, 0, 0);
+    border-radius: 15px;
+
+}
+
+
+@keyframes bloco{
+    0%{left: 580px;}
+    100%{left: -50px;}
+}
+

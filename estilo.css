@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gamer;
+
+}
+
+@font-face {
+    font-family: gamer;
+    src: url(Gamer.ttf);
+}
+.titulo{
+    text-align: center;
+    background-color: red;
+    font-size: 50px;
+    font-family: gamer;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px;
+    border: solid white;
+
+}
+body{
+
+    background-color: black;
+}
+html{
+  
+}
+
+button{
+    font-size: 20px;
+    padding: 10px 10px;
+    background: transparent;
+    border: 5px solid red;
+    border-radius: 15px;
+    color: red;
+    font-family: fantasy;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover{
+    box-shadow: 0 0 15px red, inset 0 0 15px red;
+    text-shadow: 0 0 15px red;
+
+
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+}
+
+header.rolagem{
+    background-color: rgb(255, 255, 255);
+    padding: 20px 4%;
+}
+
+header.rolagem a{
+    color: rgb(255, 0, 0);
+}
+
+img{
+    width: 150px;
+  
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display:inline-block;
+    margin: 0 40px;
+}
+
+header ul li a{
+    color: red;
+    text-decoration: none;
+    font-size: 60px;
+    text-shadow: 1px 1px 2px black;
+}
+
+header ul li a:hover{
+   
+    text-shadow: 0 0 15px red;
+
+}
+
+.banner{
+    background-image: url(https://i.pinimg.com/originals/12/b2/3a/12b23a7752e8a7a4464c1ff5e596237f.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    grid-row: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1{
+    padding-top: 250px;
+    font-size: 4em;
+    color: red;
+    text-shadow: 1px 5px 3px black;
+}
+
+::-webkit-scrollbar{
+    background-color: white;
+    width: 10px;
+    border:solid;
+    
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: red;
+    border: solid black;
+    border-radius: 3px;
+}
+
+
+.im{
+    width: 100%;
+    border-radius: 100px;
+    border: solid white;
+    
+}
+
+.caixa{
+  
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-gap: 2rem;
+    background: rgb(255, 0, 0);
+    margin-bottom: 2rem;
+    border: solid 8px rgb(255, 255, 255);
+    border-radius: 100px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px 3px rgb(0, 0, 0);
+    padding: 60px;
+    
+}
+
+.texto{
+    padding-top: 50px;
+    font-family: cursive;
+    text-shadow: 1px 2px 3px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.caixao{
+    max-width: 1300px;
+    margin: auto;
+    overflow: auto;
+    padding: 02rem;
+  
+    
+}
+
+.album{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 2vw;
+
+}
+
+.album-fotos{
+    width: 300px;
+    height: 300px;
+    flex-grow: 1;
+}
+
+.album-fotos img{
+    border: solid red;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    
+
+}
+
+.album-fotos:hover{
+    box-shadow: 0 0 15px red, inset 0 0 15px red;
+    text-shadow: 0 0 15px red;
+    border-radius: 15px;
+   
+
+
+}
+
+footer{
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    border: solid 8px rgb(255, 255, 255);
+    padding-bottom: 0px;
+ 
+}
+
+footer h3{
+    text-align: center;
+    font-size: 35px;
+
+}
+
+footer img{
+    width: 50px;
+    padding: 5px;
+}
+
+footer a  :hover{
+    box-shadow: 0 0 15px rgb(0, 0, 0), inset 0 0 15px rgb(0, 0, 0);
+    text-shadow: 0 0 15px rgb(0, 0, 0);
+    border-radius: 15px;
+
+}
+
+footer p{
+    font-size: 30px;
+
+}
+
+
+
